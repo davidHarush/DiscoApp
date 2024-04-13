@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_first_page">
+
+    <fragment
+        android:id="@+id/navigation_first_page"
+        android:name="com.harush.david.discoapp.ui.main.FirstPageFragment"
+        android:label="First Page"
+        tools:layout="@layout/fragment_first_page">
+        <!-- Define the action here -->
+        <action
+            android:id="@+id/action_navigation_first_page_to_navigation_travel"
+            app:destination="@id/navigation_travel" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_travel"
+        android:name="com.harush.david.discoapp.ui.feed.tabs.TravelFragment"
+        android:label="@string/title_Travel"
+        tools:layout="@layout/fragment_feed" />
+
+    <fragment
+        android:id="@+id/navigation_sport"
+        android:name="com.harush.david.discoapp.ui.feed.tabs.SportFragment"
+        android:label= "@string/title_sport"
+        tools:layout="@layout/fragment_feed" />
+</navigation>
