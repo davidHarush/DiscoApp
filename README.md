@@ -34,7 +34,7 @@ To get a local copy up and running follow these simple steps.
 
 ### APK Download
 
-[Download app-debug.apk](https://github.com/davidHarush/DiscoApp/raw/main/app-debug.apk)
+[Download app-debug.apk](app-debug.apk)
 
 To install the APK on your device:
 
