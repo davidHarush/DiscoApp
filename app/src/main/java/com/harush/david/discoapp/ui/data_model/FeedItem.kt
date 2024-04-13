@@ -1,4 +1,4 @@
-package com.harush.david.discoapp.ui.model
+package com.harush.david.discoapp.ui.data_model
 
 
 /**

@@ -11,7 +11,7 @@ import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.harush.david.discoapp.R
 import com.harush.david.discoapp.databinding.ListItemBinding
-import com.harush.david.discoapp.ui.model.FeedItem
+import com.harush.david.discoapp.ui.data_model.FeedItem
 import kotlin.random.Random
 
 

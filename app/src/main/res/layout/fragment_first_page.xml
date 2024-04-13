@@ -12,7 +12,7 @@
         android:id="@+id/textViewName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Your Name"
+        android:text="David Harush"
         android:textSize="24sp"
         android:layout_margin="16dp"
         android:layout_gravity="center_horizontal" />

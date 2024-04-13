@@ -18,7 +18,7 @@ import com.harush.david.discoapp.coroutineExceptionHandler
 import com.harush.david.discoapp.databinding.FragmentFeedBinding
 import com.harush.david.discoapp.gone
 import com.harush.david.discoapp.ui.main.SharedDataViewModel
-import com.harush.david.discoapp.ui.model.FeedItem
+import com.harush.david.discoapp.ui.data_model.FeedItem
 import com.harush.david.discoapp.visible
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch

@@ -1,6 +1,6 @@
 package com.harush.david.discoapp
 
-import com.harush.david.discoapp.ui.model.FeedItem
+import com.harush.david.discoapp.ui.data_model.FeedItem
 
 
 /**

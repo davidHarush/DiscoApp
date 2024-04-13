@@ -4,10 +4,9 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.harush.david.discoapp.RssFeedState
 import com.harush.david.discoapp.coroutineExceptionHandler
-import com.harush.david.discoapp.network.RssChannel
 import com.harush.david.discoapp.network.RssFeed
 import com.harush.david.discoapp.repo.FeedRepo
-import com.harush.david.discoapp.ui.model.FeedItem
+import com.harush.david.discoapp.ui.data_model.FeedItem
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.async
 import kotlinx.coroutines.coroutineScope
