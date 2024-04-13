@@ -26,6 +26,19 @@ To get a local copy up and running follow these simple steps.
 
 ### Installation
 
-1. Clone the repo 'git clone https://github.com/davidHarush/DiscoApp.git'
+1. Clone the repo
+   ```sh
+   git clone https://github.com/davidHarush/DiscoApp.git
 2. Open the project in Android Studio
 3. Run the app on your Android device or emulator
+
+### APK Download
+
+[Download app-debug.apk](https://github.com/davidHarush/DiscoApp/raw/main/app-debug.apk)
+
+To install the APK on your device:
+
+1. Download the `app-debug.apk` file to your device.
+2. On your Android device, open the downloaded file.
+3. If prompted, allow installation from unknown sources.
+4. Follow the on-screen instructions to install.
